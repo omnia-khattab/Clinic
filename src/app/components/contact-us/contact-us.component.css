@@ -1,0 +1,6 @@
+#contact-us{
+    min-height: 100vh;
+}
+#contact-us .contact-right img{
+    filter: drop-shadow(2px 4px 8px #334172);
+}

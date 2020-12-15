@@ -1,0 +1,19 @@
+
+<section class="my-5 text-center" id="countries">
+    <div class="container">
+        <h3 class="mb-5"> List of Countries Infected with Covid19</h3>
+        <div class="row">
+            <div *ngFor='let country of countires' class="col-md-4">
+                <div class="country m-auto">
+                    <div class="card mb-4 p-4" >
+                        <div class="card-body">
+                            <h5 class="card-title">{{country.Country}}</h5>
+                            <p class="card-text">New Confirmed Cases: <span class="text-danger">{{country.NewConfirmed}}</span></p>
+                            <p class="card-text">Total Confirmed Cases: <span class="text-warning">{{country.TotalConfirmed}}</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

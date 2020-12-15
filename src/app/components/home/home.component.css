@@ -1,0 +1,46 @@
+/************************************Home Section Start**********************************************/
+
+#Home{
+    height: 100vh;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('/assets/images/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#Home .home-content{
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Home .home-content h2{
+    font-size: 8rem;
+    font-weight: 700;
+}
+/************************************Home Section End**********************************************/
+
+
+/************************************Service Section Start**********************************************/
+
+/*#our-service h3{
+color: #334172;
+font-size: 3rem;
+}*/
+#our-service .service-left img{
+    filter: drop-shadow(2px 4px 8px #334172);
+}
+#our-service .service-right {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#our-service .service-right i{
+    color: #334172;
+}
+
+/************************************Service Section End**********************************************/
